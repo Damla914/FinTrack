@@ -17,7 +17,7 @@ The project aims to build a relational database using MySQL and perform financia
 
 ## Database Design
 
-The initial database consists of five main tables:
+The database consists of five main tables:
 
 - **Customers:** Customer information and registration details.
 - **Accounts:** Account types, balances, currencies, and account statuses.
@@ -35,24 +35,41 @@ The database uses primary keys and foreign keys to maintain relationships betwee
 - **Visualization:** Power BI
 - **API Testing:** Postman (planned)
 
+## SQL Development
+
+The initial database implementation and foundational SQL analysis have been completed.
+
+The SQL work currently covers:
+
+- Database and table creation.
+- Sample data insertion.
+- Basic queries using SELECT, WHERE, and ORDER BY.
+- Data modification using INSERT, UPDATE, and DELETE.
+- Table relationships and JOIN operations (INNER JOIN and LEFT JOIN).
+- Aggregate functions (COUNT, SUM, AVG, MIN, MAX).
+- Data grouping and filtering using GROUP BY and HAVING.
+- Conditional analysis using CASE WHEN.
+- Financial transaction analysis.
+- Customer, account, loan, and payment analysis.
+
+SQL scripts are organized in the `sql/` directory.
+
 ## Project Status
 
 🚧 In progress
 
-The project is currently in the database design phase. The next steps include creating the database tables, generating sample data, developing SQL queries, performing data analysis, and building interactive dashboards.
+The database schema, sample data, and foundational SQL analysis have been completed.
+
+The project is currently progressing toward advanced SQL analysis. Upcoming stages include subqueries, CTEs, window functions, data quality checks, Python-based exploratory data analysis, and interactive Power BI dashboards.
 
 ## Data
 
-The project will use synthetic sample data for development and analysis. No real customer or financial information will be included.
+The project uses synthetic sample data for development and analysis. No real customer or financial information is included.
 
 ## Future Improvements
 
-- Advanced SQL queries using JOINs, CTEs, and window functions.
+- Advanced SQL queries using subqueries, CTEs, and window functions.
 - Data quality checks and database optimization.
 - Python-based exploratory data analysis.
 - Interactive Power BI dashboards.
 - Optional REST API integration and API testing.
-
-## Author
-
-Damla Hilal Erden
